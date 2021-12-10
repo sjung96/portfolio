@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body, h1, h2, h3, ul, dl, dt, dd, p {
+	margin: 0;
+	padding: 0;
+}
+ul, dl {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+body {
+	font-family: "Roboto", "Noto Sans KR", sans-serif;
+}
+body.fixed {
+	overflow-y: hidden;
+}
+img {
+	vertical-align: top;
+	max-width: 100%;
+}

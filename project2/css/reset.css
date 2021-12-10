@@ -1,0 +1,62 @@
+/*reset css*/
+body, ul, ol, dl, dt, dd, p, h1, h2, h3, h4, h5, h6{
+	margin:0;
+	padding:0;
+}
+html, body {
+	position: relative;
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	background-color:#ffffff;
+	color: #000;
+}
+
+ul,ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+img {
+	vertical-align: top;
+}
+input[type=text],
+input[type=email], 
+input[type=subject]{
+	padding: 13px 16px;
+	font-family: "Open Sans", sans-serif; /**/
+	font-weight:500; /**/
+	font-size: 0.938em;
+	color: #777;
+	border: 2px solid #e4e4e4;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+textarea {
+	padding: 13px 16px; /**/
+	line-height: 1.5;
+	font-family: "Open Sans", sans-serif; /**/
+	font-weight:500;
+	font-size: 0.938em;
+	color: #777;
+	border:2px solid #e4e4e4;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+input[type=submit] {
+	padding: 0 58px;
+	line-height: 63px;
+	font-family: "Open Sans", sans-serif; /**/
+	font-size: 0.938em;
+	font-weight: 700;
+	background-color:#7d696a;
+	border:2px solid #7d696a;
+	color: #fff;
+	border-radius: 5px;
+}
